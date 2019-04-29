@@ -393,7 +393,7 @@ footer {
     right: 0;
     bottom: 0;
     left: 0;
-    background: rgba($base-color-hover, 0.8);
+    background: rgba($base-color-hover, 0.3);
     z-index: 1;
 }
 
@@ -454,8 +454,14 @@ footer {
     }
 
     p {
+        padding: 0px 0px;
         color: $text;
         margin: 0;
+    }
+    
+    img {
+     height: 400px 
+     
     }
 }
 
@@ -565,7 +571,7 @@ footer {
     text-align: right;
     position: absolute;
     left: 0;
-    top: 10px;
+    top: 0px;
     font-weight: 300;
     color: #374054;
 }
