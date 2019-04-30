@@ -45,8 +45,8 @@ $background-alt: #f2f2f5;
 $border: #dcd9d9;
 
 // Define text colors
-$heading: #374054;
-$text: #74808a;
+$heading: #36311f;
+$text: #594236;
 
 /*
     ---------------------
@@ -168,7 +168,7 @@ header {
 
     a {
         display: block;
-        color: $base-color;
+        color: $text;
         padding: 10px;
 
         &:hover {
@@ -378,7 +378,7 @@ footer {
     }
 
     h2 {
-        color: lighten($base-color, 25%);
+        color: darken($text, 25%);
         font-weight: 500;
         font-size: 2.25em;
         margin-bottom: 15px;
@@ -702,6 +702,7 @@ footer {
 
 #skills {
     padding: 50px 15px;
+    background: $background-alt;
     text-align: center;
 
     h2 {
