@@ -1,6 +1,5 @@
-Personal Website\
-Template by Ryan Fitzgerald\
-Hosted on Github Pages\
-DNS via Cloudflare
+# Description
+My personal website based on a template by Ryan Fitzgerald.
 
-Last Updated February 9th 2020
+Hosted on Github Pages
+DNS via Cloudflare
