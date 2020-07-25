@@ -72,29 +72,28 @@
                 </div>
                 <div class="col-md-8">
                     <p>
-                        Currently based in Toronto, Canada.<br>
-                        Currently working at Nielsen as a Software Developer.<br>
+                        Currently based in Toronto, Ontario, Canada.<br>
+                        Currently working at HSBC as a IT Quant: C++ Software Developer.<br>
                         <br>
-                        My name is Viktor and I am a graduate from the Univeristy of Waterloo, where
-                        I completed my Bachelor's of Mathematics (Computer Science) April 2019.
+                        My name is Viktor and I am a current Master's of Science Computer Science at Georgia Institute of Technology. Before this, I graduated from the Univeristy of Waterloo, where
+                        I completed my Bachelor's of Mathematics Honours Computer Science.
                         <br>
                         <br>
                         
                         Besides from writing long commit messages and forgetting semicolons,
-                         I like to think that I have some hobbies. I enjoy talking horology
-                         and watches, but also have a keen interest in men's fashion
-                         and styling in general.
+                         I enjoy talking horology
+                         and watches, and also have a keen interest in men's fashion.
                          <br>
                          <br>
                         Additionally, I like to live a healthy lifestyle. I enjoy powerlifting,
-                        olympic lifting, bicycling, swimming and running. I have played rugby for the last eight years. 
-                        Not only that, but it is also one of my favourite sports to watch.
+                        olympic weightlifting, bicycling, swimming and running. I have played rugby since 2011,
+                        not only that, but it is also one of my favourite sports to watch.
                          
                         <br>
                         <br>
                         Aside from excercise, I also love wasting time by watching TV shows, 
                         and am one of
-                        the oldest proponent of bringing Person of Interest back for 
+                        the oldest proponent of bringing 'Person of Interest' back for 
                         a sixth season.
                         <br>
                         <br>
@@ -119,15 +118,36 @@
     <div id="experience" class="background-alt">
         <h2 class="heading">Experience</h2>
         <div id="experience-timeline">
-            <div data-date="May 2019 - Current Workplace Toronto, Canada">
-                <h3>Nielsen</h3>
+            <div data-date="July 2020 - (present) <br> Toronto, Ontario, Canada">
+                <h3>HSBC: Fixed Income, Bonds & Forex (FIBX)</h3>
+                <h4>IT Quant: C++ Software Developer</h4>
+                <p>
+                <i>Refer to resume at the top of this page for current experience.</i>
+                </p>
+            </div>
+            <div data-date="May 2019 - July 2020 <br> Toronto, Ontario, Canada">
+                <h3>Nielsen: Global Connect</h3>
                 <h4>Software Developer</h4>
                 <p>
-                <i>Refer to resume, at the top of this page, for current experience.</i>
+                At Nielsen, I worked in the Canadian Technology Department, on the team responsbile for rewriting the old core calculation engine. While on that team, I contributed to various parts of the project:<br><br>
+                   
+                1. <b><u>Data Preprocessing Program</u></b><br>
+                This application took the existing underlying data pipeline and eliminated the numerous files from the old workflow. This was achieved by aggregating the data into a single JSON file to be taken as input by the new calculation engine. Due to the C++ dominate workflow, the POCO JSON library was used to format the resulting JSON. Within the preprocessing, additional logic was added in order to streamline the downstream calcualtion and optimize process time.<br><br>
+                    
+                2. <b><u>New Core Calculation Engine</u></b><br>
+                The new calculation engine was designed to replace the old engine's functionaility, but improving the design with Object-Oriented design and leveraging the Curiously Recurring Template Pattern in order to reduce the runtime cost of by implementing static polymorphism. <br><br>
+                    
+                In order to benchmark the performance, we used linux tools such as perf stat and gprof to benchmark the CPU time and to get a breakdown of hotspots. Simiialry, using Visual Studio 2019 disagonitc tools, the CPU usage and CPU time was used to get a benchmark of performance.<br><br>
+                
+                3. <b><u>Python Scripts</u></b><br>
+                On the Linux servers, we developed and maintained Python scripts in order to run test orders for testing the complete order flow, the correctness of our new calculation engine compared to the old, and also to benchmark the performance of our new engine.<br><br>
+                    
+                4. <b><u>Sybase Investigation</u></b><br>
+                During development, we realized that even though our intermediary results matched with the old engine, our end to end testing showed discrepencies. I was tasked with tracking down the source of this error. I proceeded by manually running all the programs in the pipeline and comparing intermediary Sybase tables using SQL. Here I was able to backtrace the root cause of the mismatch, and by investigating the SQL stored-procedures of the downstream programs, I was able to determine the reason for the problem. One of the files that the old engine was producing was actually required by downstream programs, thus we implemented the required functionailty to support that file and were able to resolve this problem.<br>
                 </p>
             </div>
 
-            <div data-date="January 2018 – August 2018 <br> Toronto, Canada">
+            <div data-date="January 2018 – August 2018 <br> Toronto, Ontario, Canada">
                 <h3>Scotiabank</h3>
                 <h4>Software Developer (Contract)</h4>
                 <p>
