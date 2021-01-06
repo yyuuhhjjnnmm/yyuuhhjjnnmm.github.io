@@ -4,3 +4,6 @@ My personal website based on a template by Ryan Fitzgerald. View the live versio
 
 Hosted on Github Pages\
 DNS via Cloudflare
+
+Instructions:
+run '''npm run watch''' while editing styles.scss
