@@ -72,40 +72,24 @@
                 </div>
                 <div class="col-md-8">
                     <p>
-                        Currently based in Toronto, Ontario, Canada.<br>
-                        Currently working at HSBC as a C++ Developer.<br>
-                        <br>
-                        My name is Viktor and I am a current Master's of Science Computer Science at Georgia Institute of Technology. Before this, I graduated from the Univeristy of Waterloo, where
-                        I completed my Bachelor's of Mathematics Honours Computer Science.
                         <br>
                         <br>
-                        
-                        Besides from writing long commit messages and forgetting semicolons,
-                         I enjoy talking horology
-                         and watches, and also have a keen interest in men's fashion.
-                         <br>
-                         <br>
-                        Additionally, I like to live a healthy lifestyle. I enjoy powerlifting,
-                        olympic weightlifting, bicycling, swimming and running. I have played rugby since 2011,
-                        not only that, but it is also one of my favourite sports to watch.
-                         
                         <br>
                         <br>
-                        Aside from excercise, I also love wasting time by watching TV shows, 
-                        and am one of
-                        the oldest proponent of bringing 'Person of Interest' back for 
-                        a sixth season.
+
+                        My name is Viktor and I am professional involved in the quantitative finance industry.
                         <br>
                         <br>
-                        Finally I have an amateur interest in personal finance and
-                        investing. I have devoted so much time listening to podcasts
-                        about market betas and volatility, and reading books
-                        about the firm foundation theory, that I am a bit suprised I have
-                        time to do anything else.
+                        I completed my Master's of Science Computer Science at Georgia Institute of Technology. I am also a graduate of the Univeristy of Waterloo, where
+                        I completed my Bachelor's of Mathematics, Honours Computer Science.
                         <br>
                         <br>
-                        Please have a look around my personal website, and get in touch about jobs, watches, personal finance, 
-                        typos (thanks) or just to say hi! (You can reach me at: contact (at) viktorzhou (d0t) com)
+
+                        I am heavily involved with amateur rugby and my local rugby club, having played rugby during high school as well as varsity at university. My other personal interests
+                        include personal finance and living an active lifestyle. I also love all things related to watches and horology.
+                        <br>
+                        <br>
+                        (You can reach me at: contact (at) viktorzhou (d0t) com)
                         
                     </p>
                 </div>
@@ -118,83 +102,38 @@
     <div id="experience" class="background-alt">
         <h2 class="heading">Experience</h2>
         <div id="experience-timeline">
-            <div data-date="July 2020 - (present) <br> Toronto, Ontario, Canada">
-                <h3>HSBC: Fixed Income IT & Etrading</h3>
-                <h4>C++ Developer</h4>
+            <div data-date="Feb 2022 - Dec 2023 <br> Toronto, Ontario, Canada">
+                <h3>CIBC Capital Markets</h3>
+                <h4>Associate, Automated Market Making</h4>
+                <i>Equities Derivatives Trading</i>
                 <p>
-                <i>Refer to resume at the top of this page for current experience.</i>
+                    <br>
+                    Quantitative C++ development for the ETF market making desk.
+                </p>
+            </div>
+            <div data-date="July 2020 - Feb 2022 <br> Toronto, Ontario, Canada">
+                <h3>HSBC Global Banking and Markets</h3>
+                <h4>Software Developer</h4>
+                <i>Front Office Fixed Income IT Pricing</i>
+                <p>
+                    <br>
+                    C++ development for in-house intraday risks management platform for treasuries and swaps traders.
                 </p>
             </div>
             <div data-date="May 2019 - July 2020 <br> Toronto, Ontario, Canada">
-                <h3>Nielsen: Global Connect</h3>
+                <h3>Nielsen</h3>
                 <h4>Software Developer</h4>
                 <p>
-                At Nielsen, I worked in the Canadian Technology Department, on the team responsbile for rewriting the old core calculation engine. While on that team, I contributed to various parts of the project:<br><br>
-                   
-                1. <b><u>Data Preprocessing Program</u></b><br>
-                This application took the existing underlying data pipeline and eliminated the numerous files from the old workflow. This was achieved by aggregating the data into a single JSON file to be taken as input by the new calculation engine. Due to the C++ dominate workflow, the POCO JSON library was used to format the resulting JSON. Within the preprocessing, additional logic was added in order to streamline the downstream calcualtion and optimize process time.<br><br>
-                    
-                2. <b><u>New Core Calculation Engine</u></b><br>
-                The new calculation engine was designed to replace the old engine's functionaility, but improving the design with Object-Oriented design and leveraging the Curiously Recurring Template Pattern in order to reduce the runtime cost of by implementing static polymorphism. <br><br>
-                    
-                In order to benchmark the performance, we used linux tools such as perf stat and gprof to benchmark the CPU time and to get a breakdown of hotspots. Simiialry, using Visual Studio 2019 disagonitc tools, the CPU usage and CPU time was used to get a benchmark of performance.<br><br>
-                
-                3. <b><u>Python Scripts</u></b><br>
-                On the Linux servers, we developed and maintained Python scripts in order to run test orders for testing the complete order flow, the correctness of our new calculation engine compared to the old, and also to benchmark the performance of our new engine.<br><br>
-                    
-                4. <b><u>Sybase Investigation</u></b><br>
-                During development, we realized that even though our intermediary results matched with the old engine, our end to end testing showed discrepencies. I was tasked with tracking down the source of this error. I proceeded by manually running all the programs in the pipeline and comparing intermediary Sybase tables using SQL. Here I was able to backtrace the root cause of the mismatch, and by investigating the SQL stored-procedures of the downstream programs, I was able to determine the reason for the problem. One of the files that the old engine was producing was actually required by downstream programs, thus we implemented the required functionailty to support that file and were able to resolve this problem.<br>
+                    Contributed to development of the new core calculation engine in C++.
                 </p>
             </div>
-
             <div data-date="January 2018 – August 2018 <br> Toronto, Ontario, Canada">
-                <h3>Scotiabank</h3>
+                <h3>Scotiabank Global Banking and Markets</h3>
                 <h4>Software Developer</h4>
+                <i>Global Analytics and Financial Engineering</i>
                 <p>
-                At Scotiabank, I worked in the 
-                <a href= "https://www.gbm.scotiabank.com/en.html" target="_blank">
-                Global Banking and Markets (GBM) </a>
-                division, with the Global Analytics and Financial Engineering (GAFE) 
-                team.
-                <br>
-                <br>
-                During my time with GAFE, I worked on two distinct projects:<br>
-                1. <b><u>Develop an Object Oriented data handling system in Python</u></b>
-                <br>
-                Due to new 
-                <a href = "https://www.isda.org/" target="_blank">ISDA
-                </a>regulations, Scotibank needed to a new methodology in 
-                order to comply with the Standard Initial Margin Model (SIMM). Previously,
-                a proof-of-concept was developed for the core calculations. In order to
-                test the existing solution, the GAFE team was tasked to develop a pipeline
-                for the data flowing through, extract relevant trade information and to
-                feed the subset of data through the calculator. 
-                <br>
-                <br>
-                This aggregation and scripting was done through populating our own
-                <b>Object-Oriented</b> data structure with Python scripts. Our group used 
-                <b>BitBucket</b> for revision control and peer review. Throughout the project, our team
-                was able to <u>reduce the processing time of over one million trade entries
-                by more than 400% </u>by minimizing I/O to file, while still considering space,
-                time and security tradeoffs.
-                <br>
-                <br>
-                2. <b><u>Develop new portfolio functionality in C++</u></b>
-                <br>
-                One of the softwares used by internal traders at Scotiabank is 
-                <a href = "https://www-01.ibm.com/common/ssi/ShowDoc.wss?docURL=/common/ssi/rep_ca/8/897/ENUS218-468/index.html&lang=&request_locale=en" target="_blank">
-                IBM Algo One.</a>
-                This is an enterprise software solution developed by IBM. The core code
-                of the software is developed in <b>C++</b> and is an <b>Object-Oriented Program</b>. 
-                <br><br>
-                One of the departments requested GAFE to integrate new portfolio functionalities 
-                for the software. Thus I was tasked with developing code to handle new
-                portfolio dynamics. Alongside the implementation, I also wrote
-                <b>Bash Shell</b> scripts to retrieve archived market data for testing.
-                Furthermore, I added a new test suite to the existing <u>daily overnight regression 
-                testing</u> system. Finally, to accompany the changes,
-                I composed a technical manual detailing sample useage and implementation
-                specifics.
+                    <br>
+                    Developed portfolio functionality in C++ for risk and portfolio management.
                 </p>
             </div>
 
@@ -206,49 +145,53 @@
         <h2 class="heading">Education</h2>
         <div class="education-block">
             <h3>Georgia Institute of Technology </h3>
-            <span class="education-date">August 2020 - (current)</span>
-            <h4><b>Master of Science, Computer Science</b></h4>
-            <p>
-            Current GPA: 4.0<br>
-            Specialization in Computing Systems.
-            <br>
-            <br>
+            <span class="education-date">August 2020 - April 2024</span>
+            <h4>
+                <b>Master's of Science, Computer Science</b>
+                
+                <br>
+                <i>(Degree conferred May 2024)</i>
+                <br>
+                Specialization: Computing Systems
+                <br>
+                <b>Final GPA: 3.9</b>
+            </h4>
 
             <table style="width:100%">
                 <tr>
-                    <th>Elective computer science courses:</th>
-                    <!---<th>Elective computer science courses:</th>--->
+                    <th>Core Courses:</th>
+                    <th>Elective Courses:</th>
                 </tr>
                 <tr>
-                    <td>CS6200: Graduate Intro to Operating Systems</td>
+                    <td>CS6515: Introduction to Graduate Algorithms</td>
+                    <td>CS8803-O13: Quantum Computing</td>
                 </tr>
                 <tr>
-                    <td>
-                    <p>
-                    <ul>
-                        <li><u>Project 1: Socket Programming, PThread Synchro</u><br>
-                        <dd>- implemented simple file transfer protocol via sockets in C</dd>
-                        <dd>- implemented Boss-Worker multithreaded pattern for file transfer using pthread libs in C</dd></li>
-                        <li><u>Project 2: Sys V and POSIX IPC</u><br>
-                        <dd>- implemented  file transfer protocol using web request and libcurl in C</dd>
-                        <dd>- implemented Boss-Worker multithreaded pattern for file transfer using Sys V message queues and POSIX shared-memory for Inter-Process Communication (IPC) and POSIX semaphores in C </dd></li>
-                        </li>
-                        <li><u>Project 3: RPC</u><br>
-                        <dd>- implemented file transfer protocol with gRPC API in C++</dd>
-                        <dd>- implemented multithreaded file transfer using async and sync gRPC procedures, lock_guard and conditional_variable in C++</dd></li></li>
-                    </ul> 
-                    </p>
-                    </td>
-                <!---
+                    <td>CS6210: Advanced Operating Systems</td>
+                    <td>CS6200: Graduate Introduction to Operating Systems​</td>
+                </tr>
+                <tr>
                     <td>CS6290: High-Performance Computer Architecture</td>
                     <td>CSE6220: High-Performance Computing </td>
-                    --->
+                </tr>
+                
+            </table>
+            <br>
+            <table style="width:100%">
+                <tr>
+                    <th>Free Elective Courses:</th>
                 </tr>
                 <tr>
-                <!---
-                    <td>CS6515: Intro to Graduate Algorithms</td>
-                    <td>CS6291: Embedded Systems Optimization​</td>
-                    --->
+                    <td>CS7643: Deep Learning</td>
+                </tr>
+                <tr>
+                    <td>CS7646: Machine Learning for Trading</td>
+                </tr>
+                <tr>
+                    <td>ISYE 6644: Simulation and Modelling</td>
+                </tr>
+                <tr>
+                    <td>ISYE6501: Intro to Analytics Modelling</td>
                 </tr>
             </table>
  
@@ -263,7 +206,7 @@
         </div>
         <!-- End .education-block -->
         <div class="education-block">
-            <h3>University of Waterloo (UW)</h3>
+            <h3>University of Waterloo</h3>
             <span class="education-date">September 2015 - April 2019</span>
             <h4><b>Bachelor of Mathematics, Honours Computer Science</b>
             <br>
@@ -287,8 +230,8 @@
 
             <table style="width:100%">
                 <tr>
-                    <th>Upper year core computer science courses:</th>
-                    <th>Upper year elective computer science courses:</th>
+                    <th>Core courses:</th>
+                    <th>Elective Courses:</th>
                 </tr>
                 <tr>
                     <td>CS350: Operating Systems</td>
@@ -311,13 +254,13 @@
             <br>
             <u>Awards:</u>
             <br>
-            UW Academic Honour Roll: Student Athlete 2017-2018
+            University of Waterloo Academic Honour Roll: Student Athlete 2017-2018
             <br>
-            UW Varsity Men's Rugby: Most Improved Player 2017
+            University of Waterloo Varsity Men's Rugby: Most Improved Player 2017
             <br>
-            UW Ahtletic Council: Student Athlete Award 2016
+            University of Waterloo Athletic Council: Student Athlete Award 2016
             <br>
-            UW Merit Scholarship 2016
+            University of Waterloo Entrance Merit Scholarship 2015
             </p>
         </div>
         <!-- End .education-block -->
@@ -326,8 +269,29 @@
     <!-- End #education -->
 
     <div id="projects" class="background-alt">
-        <h2 class="heading">Projects</h2>
+        <h2 class="heading">Open Source & Personal Projects</h2>
         <div class="container">
+            <div class="row">
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <a href="https://github.com/lballabio/QuantLib" target="_blank"><img src="images/quantlib_opt.png" width="300" height="200"/></a>
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>QuantLib</h3>
+                        <p>
+                            QuantLib is a free/open-source cross-platform library for quantitative finance, primarily developed in modern C++. 
+                            I have contributed by fixing open-issues, implementing test cases and commiting pull-requests. 
+                            <br>
+                            <a href="https://github.com/yyuuhhjjnnmm/QuantLib" target="_blank">View Project</a><br>
+
+                        </p>
+
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+            </div>
             <div class="row">
                 <div class="project shadow-large">
                     <div class="project-image">
